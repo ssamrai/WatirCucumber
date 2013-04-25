@@ -1,4 +1,4 @@
-class Page
-  class << self
-  end
-end
+#class Page
+#  class << self
+#  end
+#end

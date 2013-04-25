@@ -1,7 +1,7 @@
-class HomePage < Page
+class HomePage 
   class << self
   	def contact_us
-	  	$browser.link(:id, "contact_us_link").click
+	  	$browser.link(:text, "Contact Us").click
     end
 	
 	  def sign_up
