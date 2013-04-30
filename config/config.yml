@@ -1,2 +1,2 @@
 #keep user and database configurations here
-default_base_url: 'https://houserie.com'
+default_base_url: 'http://staging.houserie.com'
