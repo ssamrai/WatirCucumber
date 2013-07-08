@@ -3,6 +3,7 @@ require "watir"
 require "cucumber"
 require "headless"
 require "mysql"
+require "watir-webdriver"
 
 
 CONFIG = YAML.load_file("#{File.dirname(__FILE__)}/config.yml")
