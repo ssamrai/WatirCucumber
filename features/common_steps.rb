@@ -1,4 +1,5 @@
 require "#{File.dirname(__FILE__)}/../config/main.rb" #including main.rb starts the process
-Given /^I go to home page$/ do
-  
+
+Given /^I'm on home page$/ do
+  $browser.url == $base_url
 end
