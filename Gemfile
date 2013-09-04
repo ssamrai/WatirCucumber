@@ -1,6 +1,5 @@
 source 'http://rubygems.org'
 
-gem 'mysql'
 gem 'watir-webdriver'
 gem 'headless'
 gem 'rspec'
