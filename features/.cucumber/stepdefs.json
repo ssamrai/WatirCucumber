@@ -1,0 +1,42 @@
+[
+  {
+    "source": "^that I am on the AIRMILES site$",
+    "flags": "",
+    "file_colon_line": "features/common_steps.rb:3",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^that I am on the AIRMILES site$",
+    "flags": "",
+    "file_colon_line": "features/common_steps.rb:3",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter my (\\d+) in the Collector Number input field$",
+    "flags": "",
+    "file_colon_line": "features/feature1/step_definitions/feature1.rb:4",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see \"(.*?)\" in the header$",
+    "flags": "",
+    "file_colon_line": "features/feature1/step_definitions/feature1.rb:8",
+    "steps": [
+      {
+        "name": "I should see \"<name>\" in the header",
+        "args": [
+          {
+            "offset": 14,
+            "val": "<name>"
+          }
+        ]
+      }
+    ]
+  }
+]
