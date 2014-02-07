@@ -1,4 +1,4 @@
-watir-cucumber-automation-template
+watir-cucumber-automation-template credits to UdaySwami
 ==================================
 
 Best practice I've followed while using cucumber-watir automation which made my job easier 

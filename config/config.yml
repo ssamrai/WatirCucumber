@@ -1,2 +1,4 @@
 #keep user and database configurations here
-default_base_url: 'http://google.com'
+default_base_url: 'https://www-uat3.airmiles.ca/arrow/Home'
+default_collector_number: 51000088201
+default_pin: 1111

@@ -1,11 +1,12 @@
 class HomePage #this is a template of how pages.rb files should be written
   class << self
-  	def contact_us
-	  	$browser.link(:text, "Contact Us").click
+  	def enter_valid_collector_num(coll_num="51000088201")
+	  	 $browser.text_field(:id=>"header_collector_number"). set(coll_num)
+       $browser.button(:class=>"hover_button").click
     end
 	
-	  def sign_up
-	  	$browser.link(:text,"Sign Up").click
-    end
+	  def verifyL2login(name)
+       $browser.text.include? name
+	  end
   end
 end

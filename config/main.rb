@@ -2,15 +2,15 @@ require "rubygems" #all the require statements should be here
 require "watir"
 require "cucumber"
 require "headless"
-require "mysql"
+#require "mysql"
 require "watir-webdriver"
 
 
 CONFIG = YAML.load_file("#{File.dirname(__FILE__)}/config.yml")
 
-Dir["#{File.dirname(__FILE__)}/../lib/**/*.rb"].each { |f| load(f) } #load all the lib files
+Dir["#{File.dirname(__FILE__)}/../lib/**/*.rb"].each { |f| require f } #load all the lib files
 
-Dir["#{File.dirname(__FILE__)}/../pages/**/*.rb"].each { |f| load(f) } # all page functions are loaded
+Dir["#{File.dirname(__FILE__)}/../pages/**/*.rb"].each { |f| require f } # all page functions are loaded
 
 #set base url for test cases this can be default set in config.yml or can be passed with cucumber command
 def set_base_url
