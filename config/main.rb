@@ -19,8 +19,7 @@ end
 
 set_base_url
 
-$headless=Headless.new
+#$headless=Headless.new
 #$headless.start #start headless
 $browser = Watir::Browser.new 
 $browser.goto $base_url #start browser
-

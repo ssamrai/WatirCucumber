@@ -26,7 +26,7 @@
   {
     "source": "^I should see \"(.*?)\" in the header$",
     "flags": "",
-    "file_colon_line": "features/feature1/step_definitions/feature1.rb:8",
+    "file_colon_line": "features/feature1/step_definitions/feature1.rb:13",
     "steps": [
       {
         "name": "I should see \"<name>\" in the header",
